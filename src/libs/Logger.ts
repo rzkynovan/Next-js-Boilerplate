@@ -11,6 +11,15 @@ if (Env.LOGTAIL_SOURCE_TOKEN) {
       options: { sourceToken: Env.LOGTAIL_SOURCE_TOKEN },
     },
   };
+} else {
+  options = {
+    transport: {
+      target: 'pino-pretty',
+      options: {
+        colorize: true,
+      },
+    },
+  };
 }
 
 export const logger = pino(options);
