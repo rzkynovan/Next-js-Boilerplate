@@ -39,7 +39,7 @@ export default withSentryConfig(
     // Suppresses source map uploading logs during build
     silent: true,
     // FIXME: Add your Sentry organization and project names
-    org: 'umedic-org',
+    org: 'umedic',
     project: 'umedic',
   },
   {
