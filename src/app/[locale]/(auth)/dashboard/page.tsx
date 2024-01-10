@@ -42,7 +42,6 @@ export default function DashboardUser() {
           >
             {PROMOTION.map((e, index) => (
               <SwiperSlide
-                // eslint-disable-next-line react/no-array-index-key
                 key={index}
                 className="bg-[#EBFCFF] px-10 py-5 lg:px-20 lg:py-10"
               >
