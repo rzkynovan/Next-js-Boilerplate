@@ -52,7 +52,7 @@ type Features = {
 
 export const FEATURES: Features[] = [
   {
-    href: '/dashboard',
+    href: '/dashboard/tanya-dokter',
     image: {
       src: '/assets/images/user/dashboard/features/1.png',
       width: 120,

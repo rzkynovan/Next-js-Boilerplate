@@ -14,9 +14,9 @@ const BaseTemplate = (props: {
     <div className="w-full px-1 text-gray-700 antialiased">
       <div className="mx-auto">
         <header className="border-b border-gray-300">
-          <div className="flex justify-between">
+          <div className="flex items-center justify-between px-4 lg:px-12">
             <nav>
-              <ul className="flex flex-wrap gap-x-5 px-6 py-4 text-xl">
+              <ul className="flex flex-wrap gap-x-5 py-4 text-xl">
                 {props.leftNav}
               </ul>
             </nav>
@@ -29,7 +29,7 @@ const BaseTemplate = (props: {
           </div>
         </header>
 
-        <main className="grid place-items-center">{props.children}</main>
+        <div className="grid place-items-center">{props.children}</div>
 
         <footer className="border-t border-gray-300 py-8 text-center text-sm">
           © Copyright {new Date().getFullYear()} {AppConfig.name}.
