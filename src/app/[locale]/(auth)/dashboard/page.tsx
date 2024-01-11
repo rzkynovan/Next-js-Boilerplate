@@ -43,7 +43,7 @@ export default function DashboardUser() {
             {PROMOTION.map((e, index) => (
               <SwiperSlide
                 key={index}
-                className="bg-[#EBFCFF] px-10 py-5 lg:px-20 lg:py-10"
+                className="bg-[#EBFCFF] px-10 py-5 lg:px-20 lg:py-10 "
               >
                 <div className="flex flex-col items-center justify-between lg:flex-row">
                   <div className="flex max-w-[479px] flex-col">
